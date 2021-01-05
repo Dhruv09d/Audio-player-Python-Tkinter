@@ -168,7 +168,7 @@ def song_seek(pos):
     global new_pos
     #song_slider['to'] = song_len[song]
     new_pos = int(pos)
-    print('insode seek', new_pos)
+    print('inside seek', new_pos)
 
 #***************************** song playing time *****************************#
 stop_event = threading.Event()
